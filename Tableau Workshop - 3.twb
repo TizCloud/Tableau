@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0410.0924                               -->
+<workbook original-version='18.1' source-build='2026.1.1 (20261.26.0410.0924)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='animation'>
+      <format attr='animation-duration' value='0.10000000149011612' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='Population Group (Population Group)' inline='true' name='federated.1if38ct0x2jjl3179jloy1yolat3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Population Group' name='excel-direct.1pyyxxz0eql1g4186forb135b2zn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/admin/Desktop/Tableau/Population Group.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1 To 4]' />
+            <value name='[10 To 14]' />
+            <value name='[15 To 19]' />
+            <value name='[20 To 24]' />
+            <value name='[25 To 29]' />
+            <value name='[30 To 34]' />
+            <value name='[35 To 39]' />
+            <value name='[40 To 44]' />
+            <value name='[45 To 49]' />
+            <value name='[5 To 9]' />
+            <value name='[50 To 54]' />
+            <value name='[55 To 59]' />
+            <value name='[60 To 64]' />
+            <value name='[65 To 69]' />
+            <value name='[70 To 74]' />
+            <value name='[75 To 79]' />
+            <value name='[80 To 84]' />
+            <value name='[85 To 89]' />
+            <value name='[90]' />
+            <value name='[&lt;1]' />
+            <value name='[Total]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Population Group].[1 to 4]' />
+              <field name='[Population Group].[10 to 14]' />
+              <field name='[Population Group].[15 to 19]' />
+              <field name='[Population Group].[20 to 24]' />
+              <field name='[Population Group].[25 to 29]' />
+              <field name='[Population Group].[30 to 34]' />
+              <field name='[Population Group].[35 to 39]' />
+              <field name='[Population Group].[40 to 44]' />
+              <field name='[Population Group].[45 to 49]' />
+              <field name='[Population Group].[5 to 9]' />
+              <field name='[Population Group].[50 to 54]' />
+              <field name='[Population Group].[55 to 59]' />
+              <field name='[Population Group].[60 to 64]' />
+              <field name='[Population Group].[65 to 69]' />
+              <field name='[Population Group].[70 to 74]' />
+              <field name='[Population Group].[75 to 79]' />
+              <field name='[Population Group].[80 to 84]' />
+              <field name='[Population Group].[85 to 89]' />
+              <field name='[Population Group].[90]' />
+              <field name='[Population Group].[&lt;1]' />
+              <field name='[Population Group].[Total]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1pyyxxz0eql1g4186forb135b2zn' name='Population Group' table='[&apos;Population Group$&apos;]' type='table'>
+            <columns gridOrigin='A1:W67:no:A1:W67:0' header='yes' outcome='2'>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='string' name='Gender' ordinal='1' />
+              <column datatype='integer' name='Total' ordinal='2' />
+              <column datatype='integer' name='&lt;1' ordinal='3' />
+              <column datatype='integer' name='1 to 4' ordinal='4' />
+              <column datatype='integer' name='5 to 9' ordinal='5' />
+              <column datatype='integer' name='10 to 14' ordinal='6' />
+              <column datatype='integer' name='15 to 19' ordinal='7' />
+              <column datatype='integer' name='20 to 24' ordinal='8' />
+              <column datatype='integer' name='25 to 29' ordinal='9' />
+              <column datatype='integer' name='30 to 34' ordinal='10' />
+              <column datatype='integer' name='35 to 39' ordinal='11' />
+              <column datatype='integer' name='40 to 44' ordinal='12' />
+              <column datatype='integer' name='45 to 49' ordinal='13' />
+              <column datatype='integer' name='50 to 54' ordinal='14' />
+              <column datatype='integer' name='55 to 59' ordinal='15' />
+              <column datatype='integer' name='60 to 64' ordinal='16' />
+              <column datatype='integer' name='65 to 69' ordinal='17' />
+              <column datatype='integer' name='70 to 74' ordinal='18' />
+              <column datatype='integer' name='75 to 79' ordinal='19' />
+              <column datatype='integer' name='80 to 84' ordinal='20' />
+              <column datatype='integer' name='85 to 89' ordinal='21' />
+              <column datatype='integer' name='90' ordinal='22' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Population Group]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:W67:no:A1:W67:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Population Group]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Population Group_D923C440BDD84387BABC6DB326CB40C7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Population Group]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Population Group_D923C440BDD84387BABC6DB326CB40C7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Population Group_D923C440BDD84387BABC6DB326CB40C7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Population Group_D923C440BDD84387BABC6DB326CB40C7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Male' datatype='integer' name='[Calculation_0865655343587328]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Gender] = &quot;M&quot;&#13;&#10;THEN [Pivot Field Values]&#13;&#10;END' />
+      </column>
+      <column caption='Female' datatype='integer' name='[Calculation_0865655344041985]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Gender] = &quot;F&quot;&#13;&#10;THEN [Pivot Field Values] &#13;&#10;END' />
+      </column>
+      <column caption='Age Bin' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;90&quot;' value='90+' />
+        </aliases>
+      </column>
+      <column caption='Population' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Population Group' datatype='table' name='[__tableau_internal_object_id__].[Population Group_D923C440BDD84387BABC6DB326CB40C7]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Thailand&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Population Group' id='Population Group_D923C440BDD84387BABC6DB326CB40C7'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[1 To 4]' />
+                  <value name='[10 To 14]' />
+                  <value name='[15 To 19]' />
+                  <value name='[20 To 24]' />
+                  <value name='[25 To 29]' />
+                  <value name='[30 To 34]' />
+                  <value name='[35 To 39]' />
+                  <value name='[40 To 44]' />
+                  <value name='[45 To 49]' />
+                  <value name='[5 To 9]' />
+                  <value name='[50 To 54]' />
+                  <value name='[55 To 59]' />
+                  <value name='[60 To 64]' />
+                  <value name='[65 To 69]' />
+                  <value name='[70 To 74]' />
+                  <value name='[75 To 79]' />
+                  <value name='[80 To 84]' />
+                  <value name='[85 To 89]' />
+                  <value name='[90]' />
+                  <value name='[&lt;1]' />
+                  <value name='[Total]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Population Group].[1 to 4]' />
+                    <field name='[Population Group].[10 to 14]' />
+                    <field name='[Population Group].[15 to 19]' />
+                    <field name='[Population Group].[20 to 24]' />
+                    <field name='[Population Group].[25 to 29]' />
+                    <field name='[Population Group].[30 to 34]' />
+                    <field name='[Population Group].[35 to 39]' />
+                    <field name='[Population Group].[40 to 44]' />
+                    <field name='[Population Group].[45 to 49]' />
+                    <field name='[Population Group].[5 to 9]' />
+                    <field name='[Population Group].[50 to 54]' />
+                    <field name='[Population Group].[55 to 59]' />
+                    <field name='[Population Group].[60 to 64]' />
+                    <field name='[Population Group].[65 to 69]' />
+                    <field name='[Population Group].[70 to 74]' />
+                    <field name='[Population Group].[75 to 79]' />
+                    <field name='[Population Group].[80 to 84]' />
+                    <field name='[Population Group].[85 to 89]' />
+                    <field name='[Population Group].[90]' />
+                    <field name='[Population Group].[&lt;1]' />
+                    <field name='[Population Group].[Total]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.1pyyxxz0eql1g4186forb135b2zn' name='Population Group' table='[&apos;Population Group$&apos;]' type='table'>
+                  <columns gridOrigin='A1:W67:no:A1:W67:0' header='yes' outcome='2'>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Gender' ordinal='1' />
+                    <column datatype='integer' name='Total' ordinal='2' />
+                    <column datatype='integer' name='&lt;1' ordinal='3' />
+                    <column datatype='integer' name='1 to 4' ordinal='4' />
+                    <column datatype='integer' name='5 to 9' ordinal='5' />
+                    <column datatype='integer' name='10 to 14' ordinal='6' />
+                    <column datatype='integer' name='15 to 19' ordinal='7' />
+                    <column datatype='integer' name='20 to 24' ordinal='8' />
+                    <column datatype='integer' name='25 to 29' ordinal='9' />
+                    <column datatype='integer' name='30 to 34' ordinal='10' />
+                    <column datatype='integer' name='35 to 39' ordinal='11' />
+                    <column datatype='integer' name='40 to 44' ordinal='12' />
+                    <column datatype='integer' name='45 to 49' ordinal='13' />
+                    <column datatype='integer' name='50 to 54' ordinal='14' />
+                    <column datatype='integer' name='55 to 59' ordinal='15' />
+                    <column datatype='integer' name='60 to 64' ordinal='16' />
+                    <column datatype='integer' name='65 to 69' ordinal='17' />
+                    <column datatype='integer' name='70 to 74' ordinal='18' />
+                    <column datatype='integer' name='75 to 79' ordinal='19' />
+                    <column datatype='integer' name='80 to 84' ordinal='20' />
+                    <column datatype='integer' name='85 to 89' ordinal='21' />
+                    <column datatype='integer' name='90' ordinal='22' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Workshop 12'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[Population Pyramid Animation = <Page Name>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Population Group (Population Group)' name='federated.1if38ct0x2jjl3179jloy1yolat3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1if38ct0x2jjl3179jloy1yolat3'>
+            <column caption='Male' datatype='integer' name='[Calculation_0865655343587328]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Gender] = &quot;M&quot;&#13;&#10;THEN [Pivot Field Values]&#13;&#10;END' />
+            </column>
+            <column caption='Female' datatype='integer' name='[Calculation_0865655344041985]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Gender] = &quot;F&quot;&#13;&#10;THEN [Pivot Field Values] &#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Age Bin' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;90&quot;' value='90+' />
+              </aliases>
+            </column>
+            <column caption='Population' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_0865655343587328]' derivation='Sum' name='[sum:Calculation_0865655343587328:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0865655344041985]' derivation='Sum' name='[sum:Calculation_0865655344041985:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Pivot Field Names:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Pivot Field Names:nk]' />
+              <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Total&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Pivot Field Names:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1 To 4&quot;</bucket>
+              <bucket>&quot;5 To 9&quot;</bucket>
+              <bucket>&quot;10 To 14&quot;</bucket>
+              <bucket>&quot;15 To 19&quot;</bucket>
+              <bucket>&quot;20 To 24&quot;</bucket>
+              <bucket>&quot;25 To 29&quot;</bucket>
+              <bucket>&quot;30 To 34&quot;</bucket>
+              <bucket>&quot;35 To 39&quot;</bucket>
+              <bucket>&quot;40 To 44&quot;</bucket>
+              <bucket>&quot;45 To 49&quot;</bucket>
+              <bucket>&quot;50 To 54&quot;</bucket>
+              <bucket>&quot;55 To 59&quot;</bucket>
+              <bucket>&quot;60 To 64&quot;</bucket>
+              <bucket>&quot;65 To 69&quot;</bucket>
+              <bucket>&quot;70 To 74&quot;</bucket>
+              <bucket>&quot;75 To 79&quot;</bucket>
+              <bucket>&quot;80 To 84&quot;</bucket>
+              <bucket>&quot;85 To 89&quot;</bucket>
+              <bucket>&quot;90&quot;</bucket>
+              <bucket>&quot;&lt;1&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Pivot Field Names:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1if38ct0x2jjl3179jloy1yolat3].[sum:Calculation_0865655343587328:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1if38ct0x2jjl3179jloy1yolat3].[sum:Calculation_0865655343587328:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1if38ct0x2jjl3179jloy1yolat3].[sum:Calculation_0865655344041985:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Pivot Field Names:nk]</rows>
+        <cols>([federated.1if38ct0x2jjl3179jloy1yolat3].[sum:Calculation_0865655343587328:qk] + [federated.1if38ct0x2jjl3179jloy1yolat3].[sum:Calculation_0865655344041985:qk])</cols>
+        <pages>
+          <column>[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Year:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{9C0C0691-D76C-4698-9371-8284DC5E8D8A}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Workshop 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card looped='1' type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2028</bucket>
+          </multibucket>
+        </current-page>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Pivot Field Names:nk]</field>
+            <field>[federated.1if38ct0x2jjl3179jloy1yolat3].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9D06A6D8-811E-4F70-A617-595781BBA7F7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Workshop 12' width='192'>
+      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
+      JpeRX9U8/H92Ee6uuSoOxwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
